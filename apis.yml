@@ -1,8 +1,28 @@
 aid: medhok-hearst-communications
 name: MedHOK (Hearst Communications)
-description: 'MedHOK (Hearst Communications) is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: >-
+  MHK (formerly MedHOK), part of Hearst Health, is a healthcare technology company providing a
+  unified SaaS platform for health plans and payers. Its CareProminence suite spans utilization
+  management, care management, complaints/appeals and grievances, pharmacy management, population
+  health and quality management, and interoperability (the MHK Interop Suite), while its
+  MarketProminence suite covers enrollment and member maintenance, premium billing, financial
+  reconciliation, and member web portals. MHK helps Medicare, Medicaid, and commercial health plans
+  streamline operations, ensure regulatory compliance, and improve the member experience. The MHK
+  Interop Suite supports FHIR, SMART on FHIR, Da Vinci, and CMS-0057 interoperability requirements.
+  MHK publishes HITRUST and ISO 27001 certification and NCQA prevalidation. The company operates a
+  public marketing and resource site but does not publish a public developer portal or API program.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://mhk.com/wp-content/uploads/elementor/thumbs/MHK-4438_WebsiteHomePage_Icons__DataConsolidation-rcvhp6cqxua6rxais8hgwdo3rftrfo8dv8tczelxfu.png
 url: https://raw.githubusercontent.com/api-evangelist/medhok-hearst-communications/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +32,46 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Health Plans
+- Payer
+- Care Management
+- Utilization Management
+- Interoperability
+- FHIR
+- Compliance
 apis: []
+common:
+- type: DomainSecurity
+  url: security/medhok-hearst-communications-domain-security.yml
+- type: Conformance
+  url: conformance/medhok-hearst-communications-conformance.yml
+- type: Compliance
+  url: https://mhk.com/
+- type: LLMsTxt
+  url: llms/medhok-hearst-communications-llms.txt
+- type: Website
+  url: https://mhk.com/
+- type: Blog
+  url: https://mhk.com/resources/blog/
+- type: BlogRSS
+  url: https://mhk.com/feed/
+- type: Support
+  url: https://mhk.com/contact/
+- type: PrivacyPolicy
+  url: https://mhk.com/privacy-notice/
+- type: Partners
+  url: https://mhk.com/about-us/partners/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
