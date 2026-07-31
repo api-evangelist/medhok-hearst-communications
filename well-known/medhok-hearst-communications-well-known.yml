@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: probed
+source: live probe of https://mhk.com/.well-known/*
+host: https://mhk.com
+note: No .well-known discovery documents are published. MHK runs a WordPress marketing site with no public API surface. Absence recorded is a valid, expected result.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404

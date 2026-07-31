@@ -1,0 +1,41 @@
+generated: '2026-07-20'
+method: searched
+source: https://mhk.com/solutions/mhk-careprominence/mhk-interop-suite/
+note: >-
+  Conformance asserted from MHK's public product and marketing pages, not from a published OpenAPI
+  (MHK does not operate a public developer portal). The MHK Interop Suite is MHK's healthcare
+  interoperability product for payers.
+standards:
+- id: fhir
+  conforms: true
+  evidence: MHK Interop Suite product page states FHIR support for payer interoperability
+  source: https://mhk.com/solutions/mhk-careprominence/mhk-interop-suite/
+- id: smart-on-fhir
+  conforms: true
+  evidence: MHK Interop Suite product page states SMART on FHIR support
+  source: https://mhk.com/solutions/mhk-careprominence/mhk-interop-suite/
+- id: hl7-da-vinci
+  conforms: true
+  evidence: MHK Interop Suite product page references HL7 Da Vinci implementation guides
+  source: https://mhk.com/solutions/mhk-careprominence/mhk-interop-suite/
+- id: cms-0057-interoperability
+  conforms: true
+  evidence: MHK Interop Suite product page states support for CMS-0057 / CMS interoperability and prior authorization requirements
+  source: https://mhk.com/solutions/mhk-careprominence/mhk-interop-suite/
+compliance:
+- id: hitrust
+  status: certified
+  evidence: HITRUST referenced on mhk.com
+  source: https://mhk.com/
+- id: iso-27001
+  status: certified
+  evidence: ISO 27001 referenced on mhk.com
+  source: https://mhk.com/
+- id: ncqa-prevalidation
+  status: prevalidated
+  evidence: MHK achieves full NCQA prevalidation for population health management
+  source: https://mhk.com/resource/news/mhk-achieves-full-ncqa-prevalidation-for-population-health-management/
+- id: hipaa
+  status: aligned
+  evidence: MHK operates as a healthcare SaaS platform for US health plans under HIPAA
+  source: https://mhk.com/
