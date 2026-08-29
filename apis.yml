@@ -11,6 +11,17 @@ description: >-
   Interop Suite supports FHIR, SMART on FHIR, Da Vinci, and CMS-0057 interoperability requirements.
   MHK publishes HITRUST and ISO 27001 certification and NCQA prevalidation. The company operates a
   public marketing and resource site but does not publish a public developer portal or API program.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
